@@ -45,6 +45,16 @@
         margin-top: 100px;
         height: 100vh;
     }
+    .container .row .col img{
+        opacity: 0.6;
+        transition: transform 0.3s;
+        
+    }
+    .container .row .col img:hover{
+        opacity: 1;
+        transform: scale(1.1);
+
+    }
    
     
   </style>
@@ -114,7 +124,7 @@
 
     <div class="container">
         <div class="row">
-            <div class="col-md-4">
+            <div class="col-md-4" id="cardimg">
                 <div class="card mb-4" style="height: 300px;">
                     <img src="./bootstrapimg/card1.jpg" alt="camera" class="card-img-top">
                     <div class="card-body">
@@ -146,6 +156,28 @@
             </div>
         </div>
     </div>
+</section>
+<section class="section6" style="background-color: black;">
+    <div class="footer" style="display: flex; justify-content: space-evenly; margin-top: 40px;">
+        <div style="display: flex; flex-direction: column; color: rgb(255, 255, 255); margin-top: 40px;">
+          <h2>Contact Us</h2>
+          <p>Email: eduhome@example.com</p>
+          <p>Phone: +1 (123) 456-7890</p>
+        </div>
+      
+        <div style="display: flex; flex-direction: column; color: rgb(255, 255, 255); margin-top: 40px;">
+          <h2>Follow Us</h2>
+          <a href="#" style="color: rgb(255, 255, 255);">Facebook</a><br>
+          <a href="#" style="color: rgb(255, 255, 255);">Twitter</a><br>
+          <a href="#" style="color: rgb(255, 255, 255);">Instagram</a>
+        </div>
+      
+        <div style="display: flex; flex-direction: column; color: rgb(255, 255, 255); margin-top: 40px;">
+          <h2>Location</h2>
+          <p>23 Main Street</p>
+          <p>Plaza City, United State, </p>
+        </div>
+      </div>
 </section>
 
 <!-- ... (rest of the HTML code) ... -->
